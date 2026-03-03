@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato | Nome do Psicanalista</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container brand">
+      <div>
+        <h1>Nome do Psicanalista</h1>
+        <p><!-- aqui --> Vamos conversar? Agende sua sessão.</p>
+      </div>
+
+      <nav class="nav">
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a class="active" href="contato.html">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="card">
+        <h2>Contato</h2>
+        <p style="color:var(--muted); margin-top:6px;">
+          <!-- aqui -->
+          Para agendar ou tirar dúvidas, você pode chamar em um dos canais abaixo.
+        </p>
+
+        <div class="contact-grid" style="margin-top:14px;">
+
+          <div class="card contact-item">
+            <strong>WhatsApp / Telefone</strong>
+            <!-- Dica: use o formato do link do WhatsApp -->
+            <a href="https://wa.me/55DDDNUMERO" target="_blank" rel="noopener">
+              <!-- aqui --> +55 (11) 9XXXX-XXXX
+            </a>
+            <span style="color:var(--muted); font-size: 13px;">
+              (clique para abrir o WhatsApp)
+            </span>
+          </div>
+
+          <div class="card contact-item">
+            <strong>E-mail</strong>
+            <a href="mailto:email@exemplo.com">
+              <!-- aqui --> email@exemplo.com
+            </a>
+          </div>
+
+          <div class="card contact-item">
+            <strong>Instagram</strong>
+            <a href="https://instagram.com/seuuser" target="_blank" rel="noopener">
+              <!-- aqui --> @seuuser
+            </a>
+          </div>
+
+          <div class="card contact-item">
+            <strong>LinkedIn</strong>
+            <a href="https://www.linkedin.com/in/seu-perfil/" target="_blank" rel="noopener">
+              <!-- aqui --> linkedin.com/in/seu-perfil
+            </a>
+          </div>
+
+        </div>
+
+        <p class="note" style="margin-top:16px;">
+          <!-- aqui -->
+          Observação: o atendimento respeita sigilo e ética profissional. Se você estiver em situação de emergência,
+          procure um serviço de urgência na sua cidade.
+        </p>
+
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="small">
+        <span>© <span id="year"></span> Nome do Psicanalista</span>
+        <span><!-- aqui --> Cidade/UF</span>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
