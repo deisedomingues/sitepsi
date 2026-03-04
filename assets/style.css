@@ -401,3 +401,7 @@ body{
   color: var(--muted);
   margin-top: 12px;
 }
+
+html {
+  color-scheme: light;
+}
