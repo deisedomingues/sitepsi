@@ -165,6 +165,7 @@ body{
   background: var(--navy);
   color: white;
   border: 1px solid rgba(255,255,255,0.10);
+  text-align: center;
 }
 
 .button.primary:hover{ filter: brightness(1.05); }
@@ -345,6 +346,7 @@ body{
   margin-top: 10px;
   color: var(--muted);
   font-size: 13px;
+  text-align: center;
 }
 
 .mini-caption strong{
